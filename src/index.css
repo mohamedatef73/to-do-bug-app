@@ -1,0 +1,157 @@
+body {
+  overflow-x: hidden; 
+  overflow-y: hidden;
+  /* background-image: linear-gradient(to right, rgba(5, 113, 201, 0), rgb(80, 93, 212)); */
+}
+
+
+
+.row{
+  background-image: url('https://image.freepik.com/free-vector/different-types-insects-front-tunnel_1308-29750.jpg');
+}
+
+.container{
+  font-family:cursive;
+}
+
+.mid{
+  height: 100vh !important;
+  overflow-x: hidden; 
+  }
+
+
+input{
+  box-shadow:none !important;
+  border:1px solid #ccc !important;
+
+  }
+
+  li{
+    font-size: 20px;
+    padding-top: 5px;
+    color: rgb(250, 174, 75);
+    font-family:cursive;
+    font-style: italic;
+    overflow-x: hidden;
+    background-color: rgba(0,0,0, 0.9); 
+    border-radius: 20px;
+
+  }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(91, 231, 121); 
+  border-radius: 5px;
+  display: none;
+}
+
+ .text {
+    line-height: 25px; 
+    word-wrap: break-word;
+   
+     }
+
+  .btn{
+    box-shadow:none !important;
+    float: right;
+  }
+
+.bugSolved{
+  font-style: italic;
+  color: #1baa16;
+  text-decoration: line-through; 
+}
+
+.comment{
+  color: rgb(255, 239, 239);
+  font-size: large;
+}
+
+.hr{
+  width: 50vh;
+  border-top: 5px dotted rgb(194, 228, 0);
+  margin-bottom: 5px;
+}
+.itemsAnim-enter{
+  opacity: 0.01;
+}
+.itemsAnim-enter .itemsAnim-enter-active{
+  opacity: 1;
+  transition: opacity 300ms ease-in
+}
+.itemsAnim-leave{
+  opacity: 1;
+}
+.itemsAnim-leave .itemsAnim-leave-active{
+  opacity: 0.01;
+  transition: opacity 300ms ease-in
+}
+/* .App{
+  min-height: 500px;
+  width: 450px;
+  margin: 40px auto;
+} */
+#to-do-form input{
+  background-color: rgb(47,140,143);
+  border: 0;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  color: #fff;
+}
+#to-do-form input::placeholder{
+  color: rgb(255,255,255,0.5);
+
+}
+#to-do-form input:focus,#to-do-form:focus{
+  outline: none;
+}
+#to-do-form button{
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(250, 174, 75);
+  cursor: pointer;
+  font-weight: bolder;
+  color: #fff;
+}
+.list{
+  color: #fff;
+  width: 300px;
+  margin: 20px auto;
+  height: 50px;
+  background-color: #bf07ac;
+  border-radius: 5px;
+}
+.list p{
+  padding: 10px;
+  position: relative;
+  transition: ease-in-out;
+}
+.list p input{
+  background-color: transparent;
+  border: 0px;
+  color: #fff;
+  font-size: 18px;
+}
+.list p input:focus{
+  outline: none;
+}
+.list p span{
+  position: absolute;
+  right: 10px;
+}
+.faicon{
+  margin: 0 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+
